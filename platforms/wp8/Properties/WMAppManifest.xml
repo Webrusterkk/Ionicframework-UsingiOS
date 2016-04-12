@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Deployment AppPlatformVersion="8.0" xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment">
+    <DefaultLanguage code="en-US" xmlns="" />
+    <Languages xmlns="">
+        <Language code="en-US" />
+    </Languages>
+    <App Author="New MEK Solutions" BitsPerPixel="32" Description="Master EK Spiritual and Serivce Mission" Genre="apps.normal" ProductID="{33a7a5c0-f8a7-11e5-a92b-9554bbc9bbd2}" Publisher="New MEK Solutions" PublisherID="{db093ed5-53b1-45f7-af72-751e8f36ab80}" RuntimeType="Silverlight" Title="Master E.K" Version="1.0.0" xmlns="">
+        <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
+        <Capabilities>
+            <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+            <Capability Name="ID_CAP_NETWORKING" />
+            <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
+            <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
+            <Capability Name="ID_CAP_MICROPHONE" />
+        </Capabilities>
+        <Tasks>
+            <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+        </Tasks>
+        <Tokens>
+            <PrimaryToken TaskName="_default" TokenID="Master E.KToken">
+                <TemplateFlip>
+                    <SmallImageURI IsRelative="true" IsResource="false">Background.png</SmallImageURI>
+                    <Count>0</Count>
+                    <BackgroundImageURI IsRelative="true" IsResource="false">Background.png</BackgroundImageURI>
+                    <Title>Master E.K</Title>
+                    <BackContent />
+                    <BackBackgroundImageURI />
+                    <BackTitle />
+                    <LargeBackgroundImageURI />
+                    <LargeBackContent />
+                    <LargeBackBackgroundImageURI />
+                    <DeviceLockImageURI />
+                    <HasLarge>false</HasLarge>
+                </TemplateFlip>
+            </PrimaryToken>
+        </Tokens>
+        <ScreenResolutions>
+            <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+            <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+            <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+        </ScreenResolutions>
+    </App>
+</Deployment>
