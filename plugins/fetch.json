@@ -38,13 +38,6 @@
         },
         "is_top_level": true,
         "variables": {}
-    },
-    "cordova-plugin-hockeyapp": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-hockeyapp"
-        },
-        "is_top_level": true,
-        "variables": {}
     }
+   
 }
