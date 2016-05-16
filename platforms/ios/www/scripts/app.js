@@ -250,8 +250,7 @@ angular.module('starter', ['ionic','ngCordova', 'starter.controllers', 'starter.
        views: {
            'menuContent': {
                templateUrl: "templates/news.html",
-              
-
+             
            }
        }
    })
@@ -276,8 +275,6 @@ angular.module('starter', ['ionic','ngCordova', 'starter.controllers', 'starter.
             }
         }
     })
-
-
     $urlRouterProvider.otherwise("/event/home");
 })
 .config(function ($httpProvider) {

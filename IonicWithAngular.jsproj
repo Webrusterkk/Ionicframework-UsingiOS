@@ -69,10 +69,13 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>700011a8-ac8d-46bd-ad03-2c34d3b8d004</ProjectGuid>
-    <SccProjectName>"%24/AJSMasterEK", BBCAAAAA</SccProjectName>
-    <SccProvider>MSSCCI:Microsoft Visual SourceSafe</SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccProvider>
+    </SccProvider>
     <SccAuxPath />
-    <SccLocalPath>.</SccLocalPath>
+    <SccLocalPath>
+    </SccLocalPath>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0'">
