@@ -368,7 +368,6 @@ angular.module('starter.controllers', ['ngCordova'])
 
  .controller('marqueeimagescontroller', function ($scope, marqueeimagescontroller) {
      marqueeimagescontroller.MarqueeImages().success(function (users) {
-        
             $scope.try = users;
             $scope.loadImages = function () {
                 for (var i = 0; i < 100; i++) {
